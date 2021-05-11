@@ -102,6 +102,12 @@ body{
     width: 75%;
 }
 
+#contactHeading{
+    font-size: 200%;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+
 #contactForm{
     display: block;
     margin: auto;
