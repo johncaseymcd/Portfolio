@@ -1,0 +1,158 @@
+body{
+    background-color: #eee;
+    font-family: 'Recursive', sans-serif;
+}
+
+#wrapper{
+    margin: 0px 25px 0px 25px;
+}
+
+#header{
+    background-color: #c0c0c0;
+    color: #0000aa;
+}
+
+#headerSocial{
+    float: left;
+}
+
+#headerSocialLinks{
+    list-style-type: none;
+}
+
+.socialList{
+    display: block;
+}
+
+#headerText{
+    text-align: center;
+}
+
+#nameHeader{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#titleHeader{
+    font-family: 'Kanit', sans-serif;
+}
+
+#links{
+    width: 100%;
+}
+
+#headerLinks{
+    list-style-type: none;
+}
+
+.headerNav{
+    display: inline;
+    padding-left: 15%;
+    padding-right: 13%;
+    border-right: 2px solid black;
+    font-family: 'Kanit', sans-serif;
+}
+
+.headerNav:last-child{
+    border: none;
+}
+
+.headerNav a{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    /* font stuff here*/
+}
+
+#headshot{
+    float: right;
+}
+
+#aboutMe{
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+#projects{
+    float: left;
+    display: flex;
+    margin-top: 50px;
+}
+
+.projectColumn{
+    margin: 30px;
+}
+
+#descriptionParagraph{
+    line-height: 175%;
+    text-align: justify;
+    /* font stuff here */
+}
+
+.projectDescription{
+    width: 300px;
+    text-align: justify;
+}
+
+.challengeDescription{
+    width: 250px;
+}
+
+#contactContainer{
+    width: 75%;
+}
+
+#contactForm{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.formLabel{
+    width: 150px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.formField{
+    margin: 5px;
+    width: 350px;
+}
+
+#submitButton{
+    background-color: #000;
+    color: #c0c0c0;
+    border-radius: 10px;
+}
+
+#footer{
+    background-color: #000;
+    color: #c0c0c0;
+}
+
+#footerSocialLinks{
+    list-style-type: none;
+}
+
+.footerNav{
+    display: inline;
+    padding-left: 15%;
+    padding-right: 13%;
+    border-right: 2px solid #c0c0c0;
+    font-family: 'Kanit', sans-serif;
+}
+
+.footerNav:last-child{
+    border: none;
+}
+
+.footerNav a{
+    color: #c0c0c0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#footerText{
+    color: #c0c0c0;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}

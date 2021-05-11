@@ -11,6 +11,8 @@
     <meta name = "viewport" content = "width=device-width, intial-scale=1.0">
 
     <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Kanit:wght@200&family=Recursive&display=swap" rel="stylesheet"> 
 
   </head>
 
@@ -38,108 +40,130 @@
         </div>
 
         <div id = "headerText">
-          <h1 id = "nameHeader">Casey McDonough</h1>
+          <h1 id = "nameHeader">CASEY MCDONOUGH</h1>
           <h2 id = "titleHeader">Software Developer, Musician, Gamer</h2>
         </div>
 
         <div id = "links">
           <ul id = "headerLinks">
             <li class = "headerNav">
-              <!-- Insert link to download resume here -->
+              <a href = "documents/Casey McDonough Resume Jan 2021.pdf" download>RESUME</a>
             </li>
             <li class = "headerNav">
-              <!-- Insert mailto link here -->
+              <a href = "#contactForm">CONTACT ME</a>
             </li>
             <li class = "headerNav">
-              <!-- Insert Spotify link here -->
+              <a href = "https://open.spotify.com/user/17ony1yrmfwdbwpofynm4ki37?si=3c8d1defcada4e17" target = "_blank">SPOTIFY</a>
             </li>
           </ul>
         </div>
       </div>
 
-      <div id = "sidebar">
-        
+      <div id = "headshot">
+        <img src = "assets/Headshot.jpg">
       </div>
 
       <div id = "aboutMe">
         <p id = "descriptionParagraph">
-          Hi there! My name is Casey McDonough and I am an aspiring full-stack and/or software developer. I am currently studying C# and .NET Framework at ElevenFifty Academy, but I also have background in HTML, CSS/Bootstrap, JavaScript/jQuery, SQL, Java, and C++. Although I don't have any strictly tech-related work history, each job I've worked has involved working with technology, whether it be a restaurant POS system as a server, a retail inventory database as a sales associate, a digital audio workstation while hosting a radio show or podcast, or a loan servicing & databasing application as an escrow administrator for financial institutions. In each of these roles, I sought to figure out the logic behind the applications and suggest process improvements as needed.
+          Hi there! My name is Casey McDonough and I am an aspiring full-stack and/or software developer. I am currently studying C#, ASP.NET Framework, and MVC structure at ElevenFifty Academy, but I also have background in HTML, CSS, JavaScript/jQuery, SQL, Java, and C++. Although I don't have any strictly tech-related work history, each job I've worked has involved working with technology, whether it be a restaurant POS system as a server, a retail inventory database as a sales associate, a digital audio workstation while hosting a radio show or podcast, or a loan servicing & databasing application as an escrow administrator for financial institutions. In each of these roles, I sought to figure out the logic behind the applications and suggest process improvements as needed. Though I don't work directly with the code, my current position allows me to work very closely with the application development team to identify, log, and discuss solutions to application bugs that affect my daily workflow.
           <br />
           <br />
-          
         </p>
       </div>
 
+      <br>
+      <br>
+      <br>
+      <hr>
+
       <div id = "projects">
-        <div id = "goldBadgeProjects">
-          <div id = "characterCreator">
-            <p id = "characterCreatorDescription">
-              This is one of the first major coding projects I undertook, as a side project during my studies at ElevenFifty Academy. It is a console app that is built to automate/ease the process of creating a character for Dungeons & Dragons. There are options for player characters, monsters, and NPCs and stats for all three types can be randomized within a range of 10-20 points. Users can also choose their character's race, class, and alignment. This project was a lot of fun to work through and I may end up revisiting it to refactor and improve the code for a more streamlined project.
-            </p>
-            <!-- Insert cover image with link here -->
-          </div>
-  
-          <div id = "cssCreature">
-            <p class = "cssCreatureDescription">
-              The CSS Creature was a challenge to design a face using only CSS to style HTML &lt;div&gt; tags. I created a triangular creature loosely based on Katy Kat from Parappa The Rapper and Frylock from Aqua Teen Hunger Force, using a retro/synthwave aesthetic and color scheme.
-            </p>
-            <!-- Insert cover image with link here -->
-          </div>
-
-          <div id = "staticStoreFront">
-            <p class = "staticStoreFrontDescription">
-              The static store front project was an exercise in HTML and CSS. For this project, I created a mockup of a record store website, featuring sections for new music releases, nearby concerts, and a Spotify iframe to showcase recent listening. 
-            </p>
-            <!-- Insert cover image with link here -->
-          </div>
-
-          <div id = "finalChallenges">
-            <p class = "finalChallengesDescription">
-              These were the final project for the first section of my ElevenFifty course. The challenges covered a variety of business cases.
-              <ul id = "finalChallengeList">
-                <li>Creating a café menu and list of ingredients</li>
-                <li>Insurance claims processing</li>
-                <li>Employee ID badge access control</li>
-                <li>Budgeting for company outings</li>
-                <li>Custom email templates based on customers' purchase history</li>
-                <li>Categorizing vehicles by fuel type</li>
-                <li>Inventory tracking for food vendors at a company BBQ</li>
-              </ul>
-            </p>
-          </div>
-        </div>
-        
-        <div id = "blueBadgeProjects">
-          <div id = "24HourProject">
-
-          </div>
-
-          <div id = "YMCAapi">
-
-          </div>
+        <div id = "cssCreature" class = "projectColumn">
+          <a href = "https://codepen.io/johncaseymcd/full/NWreeVM" target = "_blank" title = "CSS Creature"><img src = "assets/cssCreature.png" alt = "CSS Creature"></a>
+          <p id = "cssCreatureDescription" class = "projectDescription">
+            The CSS Creature was a challenge to design a face using only CSS to style HTML &lt;div&gt; tags. I created a triangular creature loosely based on Katy Kat from Parappa The Rapper and Frylock from Aqua Teen Hunger Force, using an outrun/synthwave aesthetic and color scheme.
+          </p>
         </div>
 
-        <div id = "redBadgeProjects">
-
+        <div id = "staticStoreFront" class = "projectColumn">
+          <a href = "https://github.com/johncaseymcd/StaticStoreFront" target = "_blank" title = "Static Storefront"><img src = "assets/staticStoreFront.png" alt = "Static Storefront"></a>
+          <p id = "staticStoreFrontDescription" class = "projectDescription">
+            The static store front project was an exercise in HTML and CSS. For this project, I created a mockup of a record store website, featuring sections for new music releases, nearby concerts, and a Spotify iframe to showcase recent listening. 
+          </p>
         </div>
 
+        <div id = "finalChallenges" class = "projectColumn">
+          <a href = "https://github.com/johncaseymcd/GoldBadgeConsoleChallenges" target = "_blank" title = "Business Challenges"><img src = "assets/james-harrison-vpOeXr5wmR4-unsplash.jpg" alt = "Computer by James Harrison on Unsplash"></a>
+          <p id = "finalChallengesDescription" class = "projectDescription">
+            These were the final project for the first section of my ElevenFifty course. The challenges covered a variety of business cases.
+            <ul id = "finalChallengeList">
+              <li class = "challengeDescription">Creating a café menu and list of ingredients</li>
+              <li class = "challengeDescription">Insurance claims processing</li>
+              <li class = "challengeDescription">Employee ID badge access control</li>
+              <li class = "challengeDescription">Budgeting for company outings</li>
+              <li class = "challengeDescription">Custom email templates based on customers' purchase history</li>
+              <li class = "challengeDescription">Categorizing vehicles by fuel type</li>
+              <li class = "challengeDescription">Inventory tracking for food vendors at a company BBQ</li>
+            </ul>
+          </p>
+        </div>
+
+        <div id = "ymcaApi" class = "projectColumn">
+          <a href = "https://github.com/johncaseymcd/YMCAProject" target = "_blank" title = "YMCA Group Project"><img src = "assets/risen-wang-20jX9b35r_M-unsplash.jpg" alt = "Gym by Risen Wang on Unsplash"></a>
+          <p id = "ymcaApiDescription" class = "projectDescription">
+            This group API project was my first major experience coding in a team environment. Working collaboratively was awesome, since I got to see how other people write their code and how different minds can come up with different solutions to the same problem. Our group was very supportive and helpful to each other throughout the project, and even when the GitHub branches got wonky just a few days before the due date, and the only working copy was on one of our local machines, we kept our cool and were able to finish strong and turn in a fully functional project that met many of its stretch goals.
+          </p>
+        </div>
+
+        <div id = "vidyaCatMvc" class = "projectColumn">
+          <a href = "https://vidyacat2.azurewebsites.net/" target = "_blank" title = "VidyaCat MVC Project"><img src = "assets/vidyaCat.png" alt = "VidyaCat Landing Page"></a>
+          <p id = "vidyaCatMvcDescription" class = "projectDescription">
+            The final boss of Eleven Fifty - the individual MVC application. The challenge was to build a fully fleshed-out back end and customized front end using the MVC structure. I chose to build a repository for video games, with information about the developer, the platform, release date, genre, ESRB rating, and more. All columns in the list views are fully linked to view other lists filtered by the respective column, and the detail views for each game, developer, and platform are fully linked as well. One of my stretch goals was to implement user-specific collections for games the user has played, games they own, and games they want to own, but while attempting to implement the functionality I realized I was in over my head and was lost in a sea of debugging just 4 days before the due date. Thus, the finished product linked here is the result of 1 day of back-end coding, 1 day of back-end debugging, and 1 day of Razor/CSS front-end implementation.
+          </p>
+        </div>
       </div>
 
-      <div id = "contactForm">
+      <div id = "contactContainer">
+        <form method = "post" id = "contactForm" action = "https://formspree.io/f/xgeraekw">
+          <label for = "firstName" class = "formLabel">Full Name</label><br>
+          <input type = "text" id = "firstName" class = "formField" name = "first" placeholder = "Your name">
+          <br>
 
+          <label for = "company" class = "formLabel">Company/Organization</label><br>
+          <input type = "text" id = "companyName" class = "formField" name = "company" placeholder = "Your organization">
+          <br>
+
+          <label class = "formLabel">Your email:<br>
+            <input type="email" class = "formField" name="_replyto" placeholder = "someone@example.com">
+          </label>
+          <br>
+
+          <label class = "formLabel">
+            Your message:<br>
+            <textarea name="message" class = "formField" placeholder = "Write something..."></textarea>
+          </label>
+          <br>
+
+          <input type = "submit" name = "submit" id = "submitButton" value = "Submit">
+        </form>
       </div>
 
       <div id = "footer">
         <div id = "footerNavbar">
           <ul id = "footerNavbarLinks">
-
+            <li class = "footerNav">
+              <a href = "documents/Casey McDonough Resume Jan 2021.pdf" download>RESUME</a>
+            </li>
+            <li class = "footerNav">
+              <a href = "#contactForm">CONTACT ME</a>
+            </li>
+            <li class = "footerNav">
+              <a href = "https://open.spotify.com/user/17ony1yrmfwdbwpofynm4ki37?si=3c8d1defcada4e17" target = "_blank">SPOTIFY</a>
+            </li>
           </ul>
         </div>
 
-        <div id = "footerSocial">
-          <ul id = "footerSocialLinks">
-
-          </ul>
+        <div id = "footerText">
+          &copy; 2021 - Casey McDonough
         </div>
       </div>
 
