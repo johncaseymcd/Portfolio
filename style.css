@@ -89,6 +89,18 @@ body{
     /* font stuff here */
 }
 
+#toDoList{
+    list-style-type: decimal;
+}
+
+.doing{
+    color: #bb8000;
+}
+
+.toDo{
+    color: #620000;
+}
+
 .projectDescription{
     width: 300px;
     text-align: justify;
