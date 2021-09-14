@@ -97,6 +97,10 @@ body{
     color: #bb8000;
 }
 
+.paused{
+    color: #b14a00;
+}
+
 .toDo{
     color: #620000;
 }
