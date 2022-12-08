@@ -1,89 +1,102 @@
-body, html{
+body,
+html {
   font-family: "Red Hat Text", sans-serif;
-  background-image: linear-gradient(to top, #e51ef8, #390573);
+  background-image: linear-gradient(#420cbd, #cbd420);
   color: #fff;
   padding-top: 50px;
 }
 
-.navbar-custom{
+.navbar-custom {
   background-color: #000;
   font-family: "Encode Sans SC", sans-serif;
   font-size: 1.5rem;
 }
 
-/* .nav-header{
-  background-color: #000;
-}
-
-.nav-header-font{
-  font-family: "Encode Sans SC", sans-serif;
-  font-size: 1.5rem;
-} */
-
-.nav-header-name{
+.nav-header-name {
   font-size: 1.67rem;
-  color: #42fdff;
+  color: #e51ef8;
 }
-
-/* .navbar-toggler-icon{
-  color: #fff;
-} */
 
 .nav-link-text:link,
-.nav-link-text:visited{
-  color: #ff7d13;
+.nav-link-text:visited {
+  color: #20f3fb;
 }
 
 .nav-link-text:hover,
-.nav-link-text:focus{
+.nav-link-text:focus {
   color: #fff;
 }
 
-.section-header{
+.section-header {
   font-family: "Encode Sans SC", sans-serif;
   font-weight: bold;
-  color: #42fdff;
+  color: #000;
+  text-align: center;
+  text-decoration: underline;
 }
 
-.intro-text{
+.intro-text {
   font-size: 1.4rem;
-  justify-content: center;
 }
 
-.img-shadow{
-  box-shadow: 0 7px 14px 0 rgba(0, 0, 0, 0.2), 0 12px 24px 0 rgba(0, 0, 0, 0.19);
+.img-shadow {
+  box-shadow: 0 7px 14px 0 rgba(0, 0, 0, 0.4), 0 12px 24px 0 rgba(0, 0, 0, 0.39);
 }
 
-.body-text{
+.body-text {
   font-size: 1.33rem;
 }
 
-.invisible{
+.invisible {
   display: none;
 }
 
-.story-selector{
+.story-selector {
   text-decoration: underline;
   cursor: pointer;
 }
 
-.vertical-spacer{
+.vertical-spacer {
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
-.img-description{
-  padding-top: 10px;
+.gallery-text {
+  color: #fff;
+  text-align: center;
+  font-size: 1.33rem;
+}
+
+.gallery-title {
+  color: #fff;
+  font-weight: bold;
+  font-family: "Encode Sans SC", sans-serif;
+  text-align: center;
+}
+
+.top-gallery-row .img-description {
+  padding-top: 15px;
+  color: #fff;
+  font-size: 1.15rem;
+  padding-left: 2%;
+}
+
+.top-gallery-row ul li {
+  color: #fff;
+}
+
+.img-description {
+  padding-top: 15px;
   color: #000;
   font-size: 1.15rem;
   padding-left: 2%;
 }
 
-.final-challenges{
+.final-challenges {
   list-style-type: circle;
 }
 
-.challenge-description{
+.challenge-description {
   color: #000;
   font-size: 1.15rem;
 }
