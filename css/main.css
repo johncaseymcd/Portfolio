@@ -68,7 +68,7 @@ html {
 }
 
 .gallery-title {
-  color: #fff;
+  color: #000;
   font-weight: bold;
   font-family: "Encode Sans SC", sans-serif;
   text-align: center;
@@ -99,4 +99,17 @@ html {
 .challenge-description {
   color: #000;
   font-size: 1.15rem;
+}
+
+.footer-bar{
+  background-color: #000;
+}
+
+.footer-text{
+  color: #fff;
+  font-size: 1.15rem;
+  text-align: center;
+  margin: auto;
+  vertical-align: center;
+  padding: 10px 0 10px 0;
 }

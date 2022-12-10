@@ -10,4 +10,6 @@ $(function () {
     $("#long-version").addClass("invisible");
     $("#horizontal-spacer").addClass("invisible");
   });
+
+  $("#copyright").text(new Date().getFullYear());
 });
