@@ -101,6 +101,10 @@ html {
   font-size: 1.15rem;
 }
 
+.nope{
+  text-decoration: line-through;
+}
+
 .footer-bar{
   background-color: #000;
 }
