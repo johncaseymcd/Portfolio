@@ -1,6 +1,6 @@
 body,
 html {
-  font-family: "Red Hat Text", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   background-image: linear-gradient(#420cbd, #cbd420);
   color: #fff;
   padding-top: 50px;
@@ -8,8 +8,8 @@ html {
 
 .navbar-custom {
   background-color: #000;
-  font-family: "Encode Sans SC", sans-serif;
-  font-size: 1.5rem;
+  font-family: "Silkscreen", sans-serif;
+  font-size: 1.7rem;
 }
 
 .nav-header-name {
@@ -28,11 +28,12 @@ html {
 }
 
 .section-header {
-  font-family: "Encode Sans SC", sans-serif;
+  font-family: "Silkscreen", sans-serif;
   font-weight: bold;
   color: #000;
   text-align: center;
   text-decoration: underline;
+  font-size: 300%;
 }
 
 .intro-text {
@@ -70,8 +71,9 @@ html {
 .gallery-title {
   color: #000;
   font-weight: bold;
-  font-family: "Encode Sans SC", sans-serif;
+  font-family: "Silkscreen", sans-serif;
   text-align: center;
+  font-size: 225%;
 }
 
 .top-gallery-row .img-description {
