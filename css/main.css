@@ -1,7 +1,8 @@
 body,
 html {
-  font-family: "Fira Sans", sans-serif;
-  background-image: linear-gradient(#420cbd, #cbd420);
+  font-family: "Red Hat Display", sans-serif;
+  background-color: #000;
+  background-image: linear-gradient(#420cbd, #db19edb3);
   color: #fff;
   padding-top: 50px;
 }
@@ -14,12 +15,12 @@ html {
 
 .nav-header-name {
   font-size: 1.67rem;
-  color: #e51ef8;
+  color: #be04cf;
 }
 
 .nav-link-text:link,
 .nav-link-text:visited {
-  color: #20f3fb;
+  color: #cbd420;
 }
 
 .nav-link-text:hover,
@@ -30,14 +31,30 @@ html {
 .section-header {
   font-family: "Silkscreen", sans-serif;
   font-weight: bold;
-  color: #000;
+  color: #cbd420;
   text-align: center;
-  text-decoration: underline;
+  text-decoration: none;
   font-size: 300%;
+}
+
+.col-md-7 .section-header{
+  text-align: left;
 }
 
 .intro-text {
   font-size: 1.4rem;
+}
+
+a.intro-link:link,
+a.intro-link:visited{
+  color: #fff;
+  text-decoration: none;
+}
+
+a.intro-link:hover,
+a.intro-link:focus{
+  color: #20efb3;
+  text-decoration: none;
 }
 
 .img-shadow {
@@ -46,10 +63,6 @@ html {
 
 .body-text {
   font-size: 1.33rem;
-}
-
-.invisible {
-  display: none;
 }
 
 .story-selector {
@@ -69,7 +82,7 @@ html {
 }
 
 .gallery-title {
-  color: #000;
+  color: #cbd420;
   font-weight: bold;
   font-family: "Silkscreen", sans-serif;
   text-align: center;
@@ -89,7 +102,6 @@ html {
 
 .img-description {
   padding-top: 15px;
-  color: #000;
   font-size: 1.15rem;
   padding-left: 2%;
 }
@@ -112,7 +124,7 @@ html {
 }
 
 .footer-text{
-  color: #fff;
+  color: #20efb3;
   font-size: 1.15rem;
   text-align: center;
   margin: auto;
