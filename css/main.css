@@ -37,7 +37,7 @@ html {
   font-size: 300%;
 }
 
-.col-md-7 .section-header{
+.col-md-7 .section-header {
   text-align: left;
 }
 
@@ -46,13 +46,13 @@ html {
 }
 
 a.intro-link:link,
-a.intro-link:visited{
+a.intro-link:visited {
   color: #fff;
   text-decoration: none;
 }
 
 a.intro-link:hover,
-a.intro-link:focus{
+a.intro-link:focus {
   color: #20efb3;
   text-decoration: none;
 }
@@ -115,15 +115,15 @@ a.intro-link:focus{
   font-size: 1.15rem;
 }
 
-.nope{
+.nope {
   text-decoration: line-through;
 }
 
-.footer-bar{
+.footer-bar {
   background-color: #000;
 }
 
-.footer-text{
+.footer-text {
   color: #20efb3;
   font-size: 1.15rem;
   text-align: center;
