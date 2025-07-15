@@ -75,6 +75,10 @@ a.intro-link:focus {
   padding-bottom: 25px;
 }
 
+.gallery-wrapper{
+  margin: auto;
+}
+
 .gallery-text {
   color: #fff;
   text-align: center;
@@ -89,14 +93,18 @@ a.intro-link:focus {
   font-size: 225%;
 }
 
-.top-gallery-row .img-description {
+.gallery-row{
+  justify-content: center;
+}
+
+.gallery-row .img-description {
   padding-top: 15px;
   color: #fff;
   font-size: 1.15rem;
   padding-left: 2%;
 }
 
-.top-gallery-row ul li {
+.gallery-row ul li {
   color: #fff;
 }
 
