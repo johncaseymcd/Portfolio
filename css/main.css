@@ -37,7 +37,7 @@ html {
   font-size: 300%;
 }
 
-.col-md-7 .section-header {
+.col-md-6 .section-header {
   text-align: left;
 }
 
@@ -45,14 +45,14 @@ html {
   font-size: 1.4rem;
 }
 
-a.intro-link:link,
-a.intro-link:visited {
+a.hidden-link:link,
+a.hidden-link:visited {
   color: #fff;
   text-decoration: none;
 }
 
-a.intro-link:hover,
-a.intro-link:focus {
+a.hidden-link:hover,
+a.hidden-link:focus {
   color: #20efb3;
   text-decoration: none;
 }
@@ -73,6 +73,20 @@ a.intro-link:focus {
 .vertical-spacer {
   padding-top: 25px;
   padding-bottom: 25px;
+}
+
+.highlight-list{
+  list-style-type: circle;
+}
+
+.highlight-item{
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+}
+
+.highlight-year{
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 .gallery-wrapper{
@@ -109,7 +123,7 @@ a.intro-link:focus {
 }
 
 .img-description {
-  padding-top: 15px;
+  padding-top: 0.5rem;
   font-size: 1.15rem;
   padding-left: 2%;
 }
@@ -119,7 +133,6 @@ a.intro-link:focus {
 }
 
 .challenge-description {
-  color: #000;
   font-size: 1.15rem;
 }
 
