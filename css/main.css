@@ -34,15 +34,12 @@ html {
   color: #cbd420;
   text-align: center;
   text-decoration: none;
-  font-size: 300%;
-}
-
-.col-md-6 .section-header {
-  text-align: left;
+  font-size: 2.5rem;
 }
 
 .intro-text {
   font-size: 1.4rem;
+  text-align: justify;
 }
 
 a.hidden-link:link,
@@ -55,6 +52,10 @@ a.hidden-link:hover,
 a.hidden-link:focus {
   color: #20efb3;
   text-decoration: none;
+}
+
+.img-fluid{
+  margin-bottom: 0.5rem;
 }
 
 .img-shadow {
@@ -76,12 +77,13 @@ a.hidden-link:focus {
 }
 
 .highlight-list{
-  list-style-type: circle;
+  list-style-type: none;
 }
 
 .highlight-item{
   font-size: 1.15rem;
   margin-bottom: 0.5rem;
+  text-align: justify;
 }
 
 .highlight-year{
@@ -95,7 +97,7 @@ a.hidden-link:focus {
 
 .gallery-text {
   color: #fff;
-  text-align: center;
+  text-align: justify;
   font-size: 1.33rem;
 }
 
@@ -104,18 +106,15 @@ a.hidden-link:focus {
   font-weight: bold;
   font-family: "Silkscreen", sans-serif;
   text-align: center;
-  font-size: 225%;
+  font-size: 2rem;
 }
 
 .gallery-row{
   justify-content: center;
 }
 
-.gallery-row .img-description {
-  padding-top: 15px;
-  color: #fff;
-  font-size: 1.15rem;
-  padding-left: 2%;
+.gallery-row div{
+  margin: 0 1% 0 1%;
 }
 
 .gallery-row ul li {
@@ -123,9 +122,9 @@ a.hidden-link:focus {
 }
 
 .img-description {
-  padding-top: 0.5rem;
   font-size: 1.15rem;
-  padding-left: 2%;
+  padding-top: 0.25rem;
+  text-align: justify;
 }
 
 .final-challenges {
@@ -134,6 +133,7 @@ a.hidden-link:focus {
 
 .challenge-description {
   font-size: 1.15rem;
+  text-align: justify;
 }
 
 .nope {
